@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Phoenix</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/styles.css">
+		<link rel="icon" href="images/favicon.ico" />
+		
+		<script>
+			function visibilite(thingId)
+			{
+			var targetElement;
+			targetElement = document.getElementById(thingId) ;
+			if (targetElement.style.display == "none")
+			{
+			targetElement.style.display = "" ;
+			} else {
+			targetElement.style.display = "none" ;
+				}
+			}
+</script>
+
+	</head>
+		
+		
+	<body>
+		
+		<div class="colonne-gauche">
+			
+			<img id="logo" src="images/logo.jpg" alt="logo">
+			
+			<div class="vertical-menu">
+				<a href="index-accueil.html">Home</a>
+				<a href="index-les-projets.html"> Projects</a>
+				<a href="index-news.html">News</a>
+			<!-- <a href="#">Articles</a> -->
+				<a href="#">Galerie</a>
+				<a href="index-nous-soutenir.html" class="active">Support us</a>
+			</div>
+			
+			<div class="card-white-no-border" id="Suiveznous">
+				<p>Follow us</p>
+						
+				<div>
+						<a href="https://m.facebook.com/PhoenixForest20/"><img class="img-link" src="images/facebook.png" alt="facebook"></a>
+						<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fphoenix.forest%2F%3Figshid%3D72s1k82r6n1o%26fbclid%3DIwAR0AGrQQVrPR9rj_MfUUovsXR6Ju55tNa8Sebb-nZVLKUfPWTo-wOLWML3s&h=AT2wXjdBqwbbxp9qC4AGJONUzTRXmVunx5vuMDhY0Rx6k7UAqRkZZwMazHzW3kcynNjtfD3L7_clNMAKJEDCmE_MRdl1JeeSLITNzJDKoUt1NcGZh5oVABR7m9Zzaw" target="_blank"><img class="img-link" src="images/instagram.png" alt="instagram"></a>
+						<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fphoenix-forest20%3Ffbclid%3DIwAR0Qup75aiddebayWIDBvH7nIbR0L9stqxsJNrSmWLfZvHsOi17rQdhTuxE&h=AT2wXjdBqwbbxp9qC4AGJONUzTRXmVunx5vuMDhY0Rx6k7UAqRkZZwMazHzW3kcynNjtfD3L7_clNMAKJEDCmE_MRdl1JeeSLITNzJDKoUt1NcGZh5oVABR7m9Zzaw" target="_blank"><img class="img-link" src="images/linkedin.png" alt="linkedin"></a>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="colonne-droite">
+		
+			<div class="card-white-no-border">
+				<h3 id="smaller-margin">Leaving in :</h3>
+				<img src="https://img1.niftyimages.com/39_/v5ch/1h5o" />
+			</div>
+		
+			<div class="card-white-no-border">
+				<h3>They trust us: <h3>
+				<img src="images/partenaires.jpg" alt="nos partenaires">
+				<p><a href="index-nous-soutenir.html" class="small-bouton">Support us</a> </p>
+			</div>
+			
+			<div class="card-white-no-border">
+				<h3>Latest patrons</h3>
+				<p>Quentin Blanco</p>
+				<p>Manon Chambrey</p>
+				<h3>Biggest patron</h3>
+				<p>Maxime Dioulouffet</p>
+				<p><a href="index-nous-soutenir.html" class="small-bouton">Be one of them</a></p>
+			</div>
+			
+		</div>
+	
+		<div class="colonne-center">
+		
+			<div class="header">
+					<p>14/12 : Our first partner is Coeur de forêt.</p>
+					<p>16/01 : Our website is available !</p>
+				</div>
+		
+			<div class="card-white">
+				<a href="javascript:visibilite('private');" class="small-bouton">You are a private</a>
+				<a href="javascript:visibilite('company');" class="small-bouton">You are a company</a>
+			</div>
+			
+			<div id="private" class="card-white" style="display:none;">
+				<p>If you want to support our project, you can:</p>
+				<p>1) Follow us and share our content on:
+					<br>Facebook:   <a href="https://m.facebook.com/PhoenixForest20/">https://m.facebook.com/PhoenixForest</a>
+					<br>Instagram:	<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fphoenix.forest%2F%3Figshid%3D72s1k82r6n1o%26fbclid%3DIwAR0AGrQQVrPR9rj_MfUUovsXR6Ju55tNa8Sebb-nZVLKUfPWTo-wOLWML3s&h=AT2wXjdBqwbbxp9qC4AGJONUzTRXmVunx5vuMDhY0Rx6k7UAqRkZZwMazHzW3kcynNjtfD3L7_clNMAKJEDCmE_MRdl1JeeSLITNzJDKoUt1NcGZh5oVABR7m9Zzaw" target="_blank">https://instagram.com/PhoenixForest</a>
+					<br>Linkedin:   <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fphoenix-forest20%3Ffbclid%3DIwAR0Qup75aiddebayWIDBvH7nIbR0L9stqxsJNrSmWLfZvHsOi17rQdhTuxE&h=AT2wXjdBqwbbxp9qC4AGJONUzTRXmVunx5vuMDhY0Rx6k7UAqRkZZwMazHzW3kcynNjtfD3L7_clNMAKJEDCmE_MRdl1JeeSLITNzJDKoUt1NcGZh5oVABR7m9Zzaw" target="_blank">https://linkedin.com/PhoenixForest</a>						<br>Or send us a message here: <a href="###">Contact us</a>
+				</p>
+
+				<p>2) Participate to our fundraising:</p>
+				
+				<div class="affichage-icone">
+				<div class="mini-cadre">
+					<img src="images/logo.jpg" alt="logo">
+					<p>For 5€:<br>On baise ta mère devant la caméra</p>
+				</div>
+				
+				<div class="mini-cadre">
+					<img src="images/logo.jpg" alt="logo">
+					<p>For 5€:<br>On baise ta mère devant la caméra</p>
+				</div>
+				
+				<div class="mini-cadre">
+					<img src="images/logo.jpg" alt="logo">
+					<p>For 5€:<br>On baise ta mère devant la caméra</p>
+				</div>
+				
+				<div class="mini-cadre">
+					<img src="images/logo.jpg" alt="logo">
+					<p>For 5€:<br>On baise ta mère devant la caméra</p>
+				</div>
+				</div>
+			
+			</div>
+			
+			<div id="company" class="card-white" style="display:none;">
+				
+			</div>
+			
+		</div>
+
+			<a href="index-les-projets" class="btn-blue"> Projects </a>
+			<a href="index-news" class="btn-blue"> News </a>
+			<a href="index-nous-soutenir.html" class="btn-blue"> Support us </a>
+			<a href="###" class="btn-blue"> Contact us </a>
+		
+	</body>
